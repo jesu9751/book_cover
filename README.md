@@ -29,7 +29,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
-'''
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,17 +39,14 @@ Publish the website in the LocalHost.
       background-color:black;
       text-align: center;
     }
-
     .book-container {
       position: relative;
       display: inline-block;
     }
-
     .book-cover {
       height: 700px;
       width: 450px;
     }
-
     .image {
       position: absolute;
       bottom: 40px;
@@ -58,7 +55,6 @@ Publish the website in the LocalHost.
       height: 120px;
       border-radius: 100px;
     }
-
     .author{
       position: absolute;
       bottom:0px;
@@ -79,7 +75,6 @@ Publish the website in the LocalHost.
     font-weight: bold;
     color:darkslategray;
     }
-
     .oneline{
     position: absolute;
     top: 120px; 
@@ -95,7 +90,6 @@ Publish the website in the LocalHost.
       margin-left: 10px;
       margin-top: auto;
       margin-bottom: auto;
-
     }
     .bottom {
       position: absolute;
@@ -120,7 +114,8 @@ Publish the website in the LocalHost.
   </div>
 </body>
 </html>
-'''
+
+
 # OUTPUT:
 
 # RESULT:
