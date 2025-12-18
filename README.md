@@ -29,7 +29,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
-
+'''
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,8 +107,6 @@ Publish the website in the LocalHost.
       right:20px;
     }
 
-    
-
   </style>
 </head>
 <body>
@@ -122,7 +120,7 @@ Publish the website in the LocalHost.
   </div>
 </body>
 </html>
-
+'''
 # OUTPUT:
 
 # RESULT:
