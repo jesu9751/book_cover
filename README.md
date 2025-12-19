@@ -29,6 +29,26 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+views.py
+```
+from django.shortcuts import render
+
+
+def bookcover(request):
+    return render(request, 'bookcover.html')
+```
+urls.py
+```
+from django.contrib import admin
+from django.urls import path
+from cover import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.bookcover, name='home'),
+]
+```
+htmlfile
 ```
 
 <!DOCTYPE html>
